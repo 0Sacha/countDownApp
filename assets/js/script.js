@@ -1,4 +1,8 @@
-const text = document.querySelector('h2')
+const jours = document.querySelector('h2')
+const heure = document.querySelector('h2')
+const minutes = document.querySelector('h2')
+const secondes = document.querySelector('h2')
+const millisecondes = document.querySelector('h2')
 
 function getChrono() {
 
@@ -20,8 +24,12 @@ function getChrono() {
 
     console.log(days, hours, minutes, seconds, milliseconds)
 
-    text.innerText = `${days}j ${hours}h ${minutes}m ${seconds}s ${milliseconds}ms`
-
+    jours.innerText =
+        `${days} jours
+        ${hours} heurs
+        ${minutes} minutes
+        ${seconds} secondes
+        ${milliseconds} millisecondes`
 }
 
 getChrono()
