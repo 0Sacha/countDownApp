@@ -1,9 +1,14 @@
 const text = document.querySelector('h2')
 
-function getChrono(){
+function getChrono() {
 
+    // const monthinput = document.getElementById('monthinput').options[document.getElementById('monthinput').selectedIndex].text
+    // const daysinput = document.getElementById('daysinput').value
     const now = new Date().getTime();
-    const countdownDate = new Date('march 15, 2025').getTime();
+
+    // console.log(monthinput, daysinput, ', 2025')
+
+    const countdownDate = new Date('april 30,2025').getTime();
 
     const distanceBase = countdownDate - now;
 
