@@ -25,12 +25,14 @@ function getChrono() {
     console.log(days, hours, minutes, seconds, milliseconds)
 
     jours.innerText =
-        `${days} jours
-        ${hours} heurs
-        ${minutes} minutes
-        ${seconds} secondes
-        ${milliseconds} millisecondes`
+        `${days} jours ${hours} heurs ${minutes} minutes ${seconds} secondes ${milliseconds} millisecondes`
 }
+
+$(document).ready(function(){
+    $('.num').counterUp({
+        time: 1200
+    });
+});
 
 getChrono()
 
