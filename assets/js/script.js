@@ -17,7 +17,7 @@ function getChrono() {
     console.log(days, hours, minutes, seconds, milliseconds)
 
     jours.innerText =
-        `${days} jours ${hours} heurs ${minutes} minutes ${seconds} secondes ${milliseconds} millisecondes`
+        `${days} j ${hours} h ${minutes} m ${seconds} s ${milliseconds} ms`
 }
 
 

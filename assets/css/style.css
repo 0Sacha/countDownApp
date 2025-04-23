@@ -1,5 +1,22 @@
-h2 {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #252a2f;
+    color: #fff;
+    font-family: 'Poppins', sans-serif
+}
+
+.countdown {
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.countdown h1 {
+    font-size: 0.9rem;
 }
