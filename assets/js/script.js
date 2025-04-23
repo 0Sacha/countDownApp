@@ -20,11 +20,6 @@ function getChrono() {
         `${days} jours ${hours} heurs ${minutes} minutes ${seconds} secondes ${milliseconds} millisecondes`
 }
 
-$(document).ready(function(){
-    $('.num').counterUp({
-        time: 1200
-    });
-});
 
 getChrono()
 
