@@ -41,4 +41,4 @@ const counDownInterval = setInterval(() => {
 
     getChrono()
 
-}, 1000)
+}, 10)
