@@ -4,7 +4,7 @@ function getChrono() {
 
     const now = new Date().getTime();
 
-    const countdownDate = new Date('april 30,2025').getTime();
+    const countdownDate = new Date('january 17,2030').getTime();
 
     const distanceBase = countdownDate - now;
 
